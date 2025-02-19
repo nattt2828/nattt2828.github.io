@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100%;
+    width: min(100%, 100%);
+    background-color: black;
+    font-family: "Inter", serif
+}
+
+body a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+body span{
+    color: red;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0 auto;
+    width: min(1200px, 100%);
+}
+
+.content{
+    display: flex;
+    width: min(1200px, 100%);
+    margin: 0 auto;
+    flex-direction: column;
+    height: 100%;
+    width: 100px, 100%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.logo h1{
+    color: white;
+}
+
+.menu{
+    display: flex;
+    gap: 2rem;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+}
+
+.menu a{
+    color: white;
+}
+
+.logo{
+    color: white;
+    font-size: clamp(1rem, 3vw, 2rem);
+}
+
+.left-profile{
+    width: min(50rem, 100%);
+}
+
+.left-profile img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.main-content{
+    display: flex;
+    width: min(100%, 100%);
+    height: fit-content;
+    align-items: center;
+    gap: 10rem;
+}
+
+.right-content{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    gap: 1rem;
+    width: min(100%, 100%);
+}
+
+.right-content h2{
+    font-size: clamp(1rem, 3vw, 2rem);
+    color: white;
+}
+
+.right-content h1{
+    color: white;
+    font-size: clamp(1rem, 3vw, 3rem);
+}
+
+.right-content p{
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    color: white;
+
+}
+
+.socials{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.socials i{
+    font-size: clamp(1rem, 3vw, 2.5rem);
+    color: red;
+}
+
+
+
+.button:hover{
+    background-color: white;
+    color: red;
+
+}
+
+.button a:hover{
+    background-color: white;
+    color: red;
+}
+
+
+.about-content{
+    margin-top: 5rem;
+    text-align: center;
+    color: white;
+}
+
+
+.about-content p{
+    margin-top: 5rem;
+    line-height: 2rem;
+
+}
+
+
+
+/* CSS */
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #f80000;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #ec0000;
+  background-color: #1A1A1A;
+  box-shadow: rgba(197, 96, 96, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.button-link {
+    text-decoration: none; 
+    color: inherit; 
+    display: inline-block; 
+}
+
+.button-link:hover {
+    text-decoration: none; 
+
+}
+
+.actbutton {
+    margin-top: 2rem;
+}
+
+.acthref{
+    margin-top: 1rem;
+}
