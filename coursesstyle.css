@@ -1,0 +1,25 @@
+#tableContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#coursesTable {
+    width: 80%;
+    border-collapse: collapse;
+    background: rgb(82, 15, 15);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+}
+#coursesTable th, #coursesTable td {
+    border: 1px solid #ffffff;
+    padding: 1rem;
+    text-align: left;
+}
+#coursesTable th {
+    background: #ff0000;
+    color: white;
+}
+#coursesTable tr:nth-child(even) {
+    background: #200404;
+}
