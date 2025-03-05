@@ -28,7 +28,7 @@
             <div class="about-content">
                 <h2>Student List</h2>
                 <ul id="student-list"></ul>
-
+                <input type="text" id="search-bar" placeholder="Search by description...">
                 <div id="tableContainer">
                     <table id="coursesTable">
                         <thead>
@@ -92,6 +92,14 @@
                 tableBody.appendChild(row);
             });
         }
+    
+        document.getElementById("search-bar").addEventListener("input", function () {
+            let searchText = this.value.toLowerCase();
+            let filteredCourses = coursesData.filter(course =>
+                course.description.toLowerCase().includes(searchText)
+            );
+            displayCourses(filteredCourses);
+        });
 
         
     </script>
