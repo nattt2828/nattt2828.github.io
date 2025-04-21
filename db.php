@@ -47,5 +47,5 @@ if ($conn->query($tableSql) === TRUE) {
 }
 
 // Close the connection when done
-$conn->close();
+//$conn->close();
 ?>
